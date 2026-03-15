@@ -29,16 +29,16 @@ Melo is open-source. Feel free to use and modify it as needed.
 
 ---
 
-Built with ❤ to support mental well-being.
+Built to support mental well-being.
 
 
 # Emotion Detection Model
 
-## 📦 *Project Overview*
+## *Project Overview*
 We have created an Emotion Detector Machine Learning Model and uploaded it to *Hugging Face* .
 This project uses *FastAPI* to deploy a voice emotion detection model. The model is stored in a pickle file (best_rf_model.pkl) and is downloaded from *Hugging Face* if not found locally. It extracts audio features using *librosa* and predicts the mood.
 
-## 🚀 *Setup Instructions*
+## *Setup Instructions*
 
 ###1. *Clone the Repository*
 https://github.com/tanmayyysachan/MeloAI/tree/main/Model_API
@@ -63,14 +63,14 @@ bash
 pip install -r requirements.txt
 
 
-## 📤 *Running the API locally*
+## *Running the API locally*
 
 ### 4. *Run Locally*
 bash
 uvicorn main:app --host 0.0.0.0 --port 8000
 
 
-## 🔍 *Using the API locally*
+## *Using the API locally*
 
 ### *Endpoint:*
 
@@ -87,7 +87,7 @@ json
 }
 
 
-## ⚠ *Common Issues*
+## *Common Issues*
 
 - *Model Not Found:*
   - Ensure the correct Hugging Face username and repository.
@@ -174,5 +174,5 @@ Warning ⚠
 
 This APIs and Model are hosted on a free platform, so there may be occasional downtime or slow responses. If you experience issues, please try again later.
 
-## 📞 *Contact*
+## *Contact*
 For any questions, feel free to reach out at *tanmaysachan0005@gmail.com*.
